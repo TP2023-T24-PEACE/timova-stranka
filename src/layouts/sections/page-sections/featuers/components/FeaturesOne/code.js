@@ -1,64 +1,71 @@
 const featuresOneCode = `
 function Meeting 1() {
   return (
-    • Zápisnica
-      - výstup z meetingov
-      - realizácia problémov v danom týždni
+    ZÁPISNICA Z MEETINGU 1
 
-    • Projekt
-      - mobilná aplikácia pre jednu platformu(kvalita nad kvantitou)
-      - monitorovanie nálady a správania používateľa
-      - monitorovanie základných veci(smutný, šťastný, sám, pil som včera)
+    Datum: 29.9.2023
+    Čas: 13:00
+    Účastníci: Filip, Maroš, Adam, Matej, Andrej, Marcel, Martin
+    Vedúci tímu: Jakub Dubec
 
-        • bol som cvičiť -> je mi lepšie
-        • pil som a fajčil -> je mi horšie    
-        • domáce problémy -> je mi horšie        
-        • prídem domov zbijem ženu -> je mi lepšie
+    Agenda:
 
-      - čo chceme ?
-        • posunúť sledovanie vlastného života(fajčím, pijem ale prestal som a je mi zrazu lepšie a lepšie spím, ale mam absťáky)
-        • terapeutická metóda -> meranie dát v zlom období a vtedy si treba sledovať vzorce svojho správania
-
-    • Problémy
-      - AKO SA BUDU ZAZNAMENAVAT TIETO VLASTNOSTI ABY SA ZNICH DAL SPRAVIT ZAVER ?
-      - AKO TO ZOVSEOBECNIT PRE KAZDEHO?
-      - AKE TYPY UDALOSTI CHCEME ZAZNAMENAVAT?
-
-    • Zber dát
-      - typy otázok, spracovanie dát, získanie dát
-      - škálovateľne otázky na spracovanie
-      - metóda zberu dát pre aplikáciu(ako sa zberajú dáta? denne, náhodná notifikácia, pravidelne zapisovanie denne)
-
-      - RYCHLE a EFEKTIVNE
-
-    • Prvý semester
-
-      - návrh riešenia
-      - základný zber dát a ich spracovanie     
-      - jednoduchý prototyp
-
-    • Technológie
-      - natívne technológie -> kolektovanie dát a analytika, ako majú vyzerať a čo potrebujeme
-      - frontend - kvalitne zobrazovanie dát
-      - Webová stránka - záznam zo stretnutí, kto tam bol, čo sme robili, kto je za čo zodpovedný
-      - projektová dokumentácia(opis produktu, aspekty)
-      - špecifikácia produktu(diagramy, diagram komponentov, databázový model, sekvenčný diagram procesov)
-    
-    • Plán projektu
-
-      - vyber technológie(relevantne)
-      - Jira na vytváranie tiketov a rozdeľovanie taskov
-      - daný je TYZDNOVY šprint(taktiež aj report zo šprintu)   
-      - obrys toho čo chceme robiť, konkrétne tasky s konkrétnymi cieľami
+    1. Výstup z vykonaných meetingov:
       
-    • Rozdelenie tímu
-      - back a spracovanie dát : Martin a Filip
-      - dátová analýza: Marcel a Andrej
-      - Frontend a analytika: Matej, Adam a Maros
 
-    • Akceptačne testy: vymyslime si produkt
-      - spísať si myšlienky, nápady a ciele
-      - ako to budeme robiť(technológie a pod)
-      - odkonzultovať podmienky akceptačných testov`;
+    2. Realizácia problémov v danom týždni:
+      - Stručný prehľad riešení problémov, ktoré sa objavili počas týždňa.
+
+    3. Projekt:
+      - Popis mobilnej aplikácie:
+        - Aplikácia pre jednu platformu s dôrazom na kvalitu nad kvantitou.
+        - Funkcionalita na monitorovanie nálady a správania používateľa.
+        - Záznam základných stavov (napr. smutný, šťastný, sám, pitie alkoholu, fajčenie, problémy doma) a ich vplyv na používateľa.
+      - Ciele:
+        - Posunúť sledovanie vlastného života a pomôcť používateľom rozpoznať vzorce správania.
+        - Vytvoriť terapeutickú metódu na základe merania dát v zlých obdobiach a sledovaním zmien v správaní.
+      - Problémy:
+        - Ako zaznamenávať vlastnosti tak, aby sme mohli z nich odvodiť závery?
+        - Ako univerzalizovať tento systém pre každého používateľa?
+        - Ktoré udalosti budeme zaznamenávať a aké otázky položíme používateľom?
+
+    4. Zber dát:
+      - Typy otázok a metódy zberu dát (napr. denne, náhodné notifikácie, pravidelné záznamy).
+      - Rýchly a efektívny spôsob získavania relevantných údajov.
+
+    5. Prvý semester:
+      - Návrh riešenia.
+      - Základný zber dát a ich spracovanie.
+      - Vytvorenie jednoduchého prototypu.
+
+    6. Technológie:
+      - Použité natívne technológie na zber dát a analýzu.
+      - Rozpracovanie frontendu pre kvalitné zobrazovanie dát.
+      - Vytvorenie webovej stránky pre záznam zo stretnutí, zodpovednosti a pokrok v projekte.
+      - Dokumentácia projektu vrátane opisu produktu, jeho aspektov a špecifikácie (diagramy, diagram komponentov, databázový model, sekvenčné diagramy).
+
+    7. Plán projektu:
+      - Výber relevantných technológií.
+      - Použitie nástroja Jira na vytváranie tiketov a rozdeľovanie úloh.
+      - Rozdelenie práce do týždňových šprintov s jasnými cieľmi.
+
+    8. Rozdelenie tímu:
+      - Back-end a spracovanie dát:
+        - Martin
+        - Filip
+      - Dátová analýza:
+        - Marcel
+        - Andrej
+      - Frontend a analytika:
+        - Matej
+        - Adam
+        - Maroš
+
+    9. Akceptačné testy:
+      - Vytvorenie myšlienok, nápadov a cieľov pre produkt.
+      - Stanovenie technológií a podmienok akceptačných testov.
+)
+
+`;
 
 export default featuresOneCode;

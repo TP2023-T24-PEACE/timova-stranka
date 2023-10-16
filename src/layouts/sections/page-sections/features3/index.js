@@ -18,22 +18,22 @@ import BaseLayout from "layouts/sections/components/BaseLayout";
 import View from "layouts/sections/components/View";
 
 // Features page components
-import FeaturesOne from "layouts/sections/page-sections/featuers/components/FeaturesOne";
-//import FeaturesTwo from "layouts/sections/page-sections/featuers/components/FeaturesTwo";
+
+import FeaturesThree from "layouts/sections/page-sections/features3/components/FeaturesThree";
 // Features page components code
-import featuresOneCode from "layouts/sections/page-sections/featuers/components/FeaturesOne/code";
-//import featuresTwoCode from "layouts/sections/page-sections/featuers/components/FeaturesTwo/code";
+
+import featuresThreeCode from "layouts/sections/page-sections/features3/components/FeaturesThree/code";
 function Features() {
   return (
     <BaseLayout
-      title="Meeting 1"
+      title="Meeting 3"
       breadcrumb={[
         { label: "Meetings Sections", route: "/sections/page-sections/features" },
         { label: "Meetings" },
       ]}
     >
-      <View title="Meeting" code={featuresOneCode}>
-        <FeaturesOne />
+      <View title="Meeting" code={featuresThreeCode}>
+        <FeaturesThree />
       </View>
     </BaseLayout>
   );

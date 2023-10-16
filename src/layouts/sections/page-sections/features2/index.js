@@ -26,7 +26,7 @@ import featuresTwoCode from "layouts/sections/page-sections/features2/components
 function Features() {
   return (
     <BaseLayout
-      title="Meetings"
+      title="Meeting 2"
       breadcrumb={[
         { label: "Meetings Sections", route: "/sections/page-sections/features" },
         { label: "Meetings" },

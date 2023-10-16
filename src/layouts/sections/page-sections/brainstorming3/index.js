@@ -17,26 +17,26 @@ Coded by www.creative-tim.com
 import BaseLayout from "layouts/sections/components/BaseLayout";
 import View from "layouts/sections/components/View";
 
-// Features page components
-import FeaturesOne from "layouts/sections/page-sections/featuers/components/FeaturesOne";
-//import FeaturesTwo from "layouts/sections/page-sections/featuers/components/FeaturesTwo";
-// Features page components code
-import featuresOneCode from "layouts/sections/page-sections/featuers/components/FeaturesOne/code";
-//import featuresTwoCode from "layouts/sections/page-sections/featuers/components/FeaturesTwo/code";
-function Features() {
+// PageHeaders page components
+import BrainstormThree from "layouts/sections/page-sections/brainstorming3/components/BrainstormThree";
+
+// PageHeaders page components code
+import brainstormTwoCode from "layouts/sections/page-sections/brainstorming3/components/BrainstormThree/code";
+
+function PageHeaders() {
   return (
     <BaseLayout
-      title="Meeting 1"
+      title="Brainstorming 3"
       breadcrumb={[
-        { label: "Meetings Sections", route: "/sections/page-sections/features" },
-        { label: "Meetings" },
+        { label: "Brainstorming 3", route: "/sections/brainstorming/brainstorming2" },
+        { label: "Brainstorm" },
       ]}
     >
-      <View title="Meeting" code={featuresOneCode}>
-        <FeaturesOne />
+      <View title="Brainstorming 3" code={brainstormTwoCode} height="40rem">
+        <BrainstormThree />
       </View>
     </BaseLayout>
   );
 }
 
-export default Features;
+export default PageHeaders;

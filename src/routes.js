@@ -50,8 +50,10 @@ import SignIn from "layouts/pages/authentication/sign-in";
 // Sections
 import BrainHeader from "layouts/sections/page-sections/brainstorming";
 import BrainHeader2 from "layouts/sections/page-sections/brainstorming2";
+import BrainHeader3 from "layouts/sections/page-sections/brainstorming3";
 import Features from "layouts/sections/page-sections/featuers";
 import Features2 from "layouts/sections/page-sections/features2";
+import Features3 from "layouts/sections/page-sections/features3";
 
 import Inputs from "layouts/sections/input-areas/inputs";
 import Forms from "layouts/sections/input-areas/forms";
@@ -126,6 +128,11 @@ const routes = [
             route: "/sections/page-sections/meeting2",
             component: <Features2 />,
           },
+          {
+            name: "Meeting 3",
+            route: "/sections/page-sections/meeting3",
+            component: <Features3 />,
+          },
         ],
       },
       {
@@ -142,6 +149,11 @@ const routes = [
             name: "Brainstorming 2",
             route: "/sections/page-sections/brainstorming2",
             component: <BrainHeader2 />,
+          },
+          {
+            name: "Brainstorming 3",
+            route: "/sections/page-sections/brainstorming3",
+            component: <BrainHeader3 />,
           },
         ],
       },

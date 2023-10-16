@@ -1,39 +1,62 @@
 const featuresTwoCode = `
 function Meeting 2() {
   return (
-    • Zber dát - možnosti zberu
-      - Lepšie možno, odpovedať na otázky/dotazník
-      • Lepšie ako včera ?
-      • Cítim sa vyčerpaný.
-      • Cítim sa milovaný.
-      • ??? čo keď nastane rozpor v odpovediach
+    ZÁPISNICA Z MEETINGU 2
 
-    • Keby si používateľ vie zadefinovať udalosti, ktoré chce vykonávať na zlepšenie nálady
-      - Keď začnem skoro vstavať bude mi lepšie ?
-      - Začnem cvičiť bude mi lepšie …
+    Datum: 4.10.2023
+    Čas: 19:00
+    Účastníci: Filip, Maroš, Adam, Matej, Andrej, Marcel, Martin
+    Vedúci tímu: Jakub Dubec
 
-        • ??? podarilo sa mi naplniť ciele
-        • ??? Zlepšilo/zhoršilo sa niečo keď som aplikoval tieto veci do života   
+    Agenda:
 
-      
-    • Zaznamenávanie aktuálnej aktivity - aký mala na mňa vplyv(to sme riešili pridávanie aktuálnej udalosti)
+    1. Zber Dát - Možnosti Zberu
 
-    • Používateľ je zamknutý v kategóriách - chceli by sme dosiahnuť vyššiu personalizáciu
-      - vytvoriť si svoje udalosti voči ktorým mám sentiment
-      - vytvoriť si ciele a následne ich trackovat
-      - Open otazky - vyhodnotenie lepšie/neutrálne/horšie ???
-        • Databáza slov na zhodnotenie dna. (kazde slovo bude mat svoju hodnotu)
-        • Používateľ si vie vybrať zber  dat - slova, dotazník, emoji, otázky
-        • Otázka: Dnešný deň v práci bol: náročný/jednoduchý/prijemný/nepríjemný...(chápeme)
+    - Diskutovalo sa o rôznych možnostiach zberu dát, vrátane odpovedí na otázky a dotazníky.
+      - Otázka: Lepšie ako včera?
+      - Odpovede: 
+        - Cítim sa vyčerpaný.
+        - Cítim sa milovaný.
+        - ??? čo keď nastane rozpor v odpovediach
 
-    • Kedy notifikácia - používateľ si môže zadať kedy chce, random v čase dňa
-      - Notifikácia ma hodnotu - ranná, po práci, náhodná, pravidelná
-      - Aj hodnota zápisu - iné je keď používateľ zadá v rámci dňa, lebo sa mi niečo dobre/zle stalo
+    2. Používateľom Definované Udalosti na Zlepšenie Nálady
 
-    • Technológia sa rozhodne , +- a pod. Optimálne začať programovať v Decembri
+    - Diskutovalo sa o možnostiach, ako používateľ môže definovať udalosti na zlepšenie nálady.
+      - Príklady:
+        - Keď začnem skoro vstávať, bude mi lepšie?
+        - Začnem cvičiť, bude mi lepšie?
+      - ??? podarilo sa mi naplniť ciele
+      - ??? Zlepšilo/zhoršilo sa niečo, keď som aplikoval tieto veci do života?
 
-    • Nájsť nejaké články, z toho spraviť nejaký záver a vybrať čo chceme aplikovať.
+    3. Zaznamenávanie Aktuálnej Aktivity a Jej Vplyv na Náladu
 
-    • Môžeme to obohatiť aj o svoje nápady a spracovania`;
+    - Diskutovalo sa o potrebe zaznamenávania aktuálnej aktivity a jej vplyvu na náladu.
+      - Riešilo sa pridávanie aktuálnej udalosti do záznamu.
+
+    4. Personalizácia pre Používateľa
+
+    - Diskutovalo sa o vyššej personalizácii pre používateľa.
+      - Používateľ môže vytvoriť svoje udalosti, voči ktorým má sentiment.
+      - Možnosť vytvárania a sledovania cieľov.
+      - Používateľovi bude k dispozícii otázky typu open-ended s hodnotením lepšie/neutrálne/horšie.
+      - Bude existovať databáza slov na zhodnotenie dňa, pričom každé slovo bude mať svoju hodnotu.
+
+    5. Notifikácie a Ich Hodnota
+
+    - Diskutovalo sa o nastavení notifikácií pre používateľov.
+      - Používateľ si môže nastaviť časovanie notifikácií (ranná, po práci, náhodná, pravidelná).
+      - Hodnota záznamu bude závisieť aj od toho, či používateľ zaznamená udalosti v priebehu dňa.
+
+    6. Plán Ďalšieho Postupu
+
+    - Rozhodnutie, že práca na vývoji aplikácie začne v decembri, s prihliadnutím na technologické možnosti.
+
+    7. Vyhodnotenie Článkov a Nápadov na Rozšírenie Aplikácie
+
+    - Účastníci sa dohodli na potrebe vyhodnotenia existujúcich článkov a získaní záverov, ktoré budú aplikované v ďalšom vývoji.
+    - Diskutovalo sa o možnostiach obohatenia aplikácie o nové nápady a inovácie.s
+)
+
+`;
 
 export default featuresTwoCode;
