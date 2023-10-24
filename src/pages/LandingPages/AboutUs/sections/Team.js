@@ -66,7 +66,7 @@ function Team() {
                 description="Zaujíma sa o webové stránky od roku 2013 a od 2017 ich tvorí profesionálne
                 "
               />
-              <MKTypography variant="body1" color="white" mb={3}>
+              <MKTypography variant="body1" color="white" mb={3} ml={2}>
                 <b>2021 - 2022</b> - Frontend Developer nahodsa.sk <br />
                 <b>2020 - 2023</b> - Frontend Developer vibefest.sk & redroom.sk <br />
                 <b>2022 - súčasnosť</b> - Web Developer barneystudio.com <br />
@@ -84,7 +84,7 @@ function Team() {
                 position={{ color: "info", label: "App development, Web development" }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
-              <MKTypography variant="body1" color="white" mb={3}>
+              <MKTypography variant="body1" color="white" mb={3} ml={2}>
                 Bakalárska téma zameraná na full stack webovú aplikáciu <br />
                 <b>Absolvované relevantné predmety</b> - VPWA, MTAA, WTECH, DBS, ICP, OOP, IAU{" "}
                 <br />
@@ -101,7 +101,7 @@ function Team() {
                 position={{ color: "info", label: "Backend & API" }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
-              <MKTypography variant="body1" color="white" mb={3}>
+              <MKTypography variant="body1" color="white" mb={3} ml={2}>
                 Bakalárska téma zameraná bakalárska práca na vývoj natívnej mobilnej aplikácie{" "}
                 <br />
                 <b>Absolvované relevantné predmety</b> - MTAA, IAU a povinné predmety v rámci
@@ -120,7 +120,7 @@ function Team() {
                 position={{ color: "info", label: "Backend & API" }}
                 description="Zaujíma sa o tvorbu webových aplikácií od roku 2019"
               />
-              <MKTypography variant="body1" color="white" mb={3}>
+              <MKTypography variant="body1" color="white" mb={3} ml={2}>
                 Bakalárska práca s vývojom webovej aplikácie <br />
                 <b>Absolvované relevantné predmety</b> - MTAA, WTECH, VPWA, DBS, OOP, IAU <br />
                 <b>Zapísané inžinierske predmety</b> - TSOFT, NSIETE
@@ -135,7 +135,7 @@ function Team() {
                 position={{ color: "info", label: "Data science" }}
                 description="O dátovú vedu sa zaujíma aj v profesionálnom živote"
               />
-              <MKTypography variant="body1" color="white" mb={3}>
+              <MKTypography variant="body1" color="white" mb={3} ml={2}>
                 Bakalárska téma zameraná na Data science <br />
                 <b>Absolvované relevantné predmety</b> - WTECH, VAVJS, DBS, ICP, IAU, OOP, UI, PAS,
                 VAVA
@@ -152,7 +152,7 @@ function Team() {
                 position={{ color: "info", label: "Data science" }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
-              <MKTypography variant="body1" color="white" mb={3}>
+              <MKTypography variant="body1" color="white" mb={3} ml={2}>
                 BP zameraná na Computer vision a data science <br />
                 <b>Absolvované relevantné predmety</b> - - IAU, ICP, OOP, DBS <br />
                 <b>2021-2023</b> - Kyndryl (customer support, developer)
@@ -170,7 +170,7 @@ function Team() {
                 position={{ color: "info", label: "Web-development, Automated test developer" }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
-              <MKTypography variant="body1" color="white" mb={3}>
+              <MKTypography variant="body1" color="white" mb={3} ml={2}>
                 <b>Bakalárska práca</b> - webový portál celoživotného online vzdelávania zameraný na
                 starších a zrakovo znevýhodnených používateľov <br />
                 <b>Absolvované relevantné predmety</b> - IAU, ICP, OOP, DBS, WTECH, MSOFT
