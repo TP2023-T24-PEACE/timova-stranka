@@ -114,7 +114,6 @@ function View({ children, code, title, height, ...rest }) {
             bgColor="grey-100"
             width="100%"
             height={height}
-            maxHeight="40rem"
             borderRadius="xl"
             sx={{ overflowX: "hidden", overflowY: "scroll" }}
           >

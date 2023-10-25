@@ -14,7 +14,7 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "TP - Peace",
+    name: "Tím č.24 - PEACE",
     image: logoCT,
     route: "/",
   },

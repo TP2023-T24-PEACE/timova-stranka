@@ -73,7 +73,7 @@ function HeaderOne() {
                 },
               })}
             >
-              TP - Peace
+              Tím č.24 - PEACE
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} pr={6} mr={6}>
               Výsledky myšlienkových pochodov nášho tímu
