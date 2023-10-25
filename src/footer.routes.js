@@ -44,14 +44,6 @@ export default {
       ],
     },
     {
-      name: "resources",
-      items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
-      ],
-    },
-    {
       name: "help & support",
       items: [
         { name: "contact us", href: "https://www.creative-tim.com/contact-us" },

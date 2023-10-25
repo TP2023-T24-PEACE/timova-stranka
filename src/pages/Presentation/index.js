@@ -23,14 +23,16 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/peacebg.jpg";
+
+// Sections
+import Information from "pages/LandingPages/AboutUs/sections/Information";
+import AboutUs from "pages/LandingPages/AboutUs/sections/Team";
 
 function Presentation() {
   return (
@@ -75,10 +77,8 @@ function Presentation() {
           </Grid>
         </Container>
       </MKBox>
-
-      <MKBox pt={6} px={1} mt={6}>
-        <DefaultFooter content={footerRoutes} />
-      </MKBox>
+      <Information />
+      <AboutUs />
     </>
   );
 }
