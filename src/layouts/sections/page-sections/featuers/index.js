@@ -23,6 +23,7 @@ import FeaturesOne from "layouts/sections/page-sections/featuers/components/Feat
 // Features page components code
 import featuresOneCode from "layouts/sections/page-sections/featuers/components/FeaturesOne/code";
 //import featuresTwoCode from "layouts/sections/page-sections/featuers/components/FeaturesTwo/code";
+
 function Features() {
   return (
     <BaseLayout

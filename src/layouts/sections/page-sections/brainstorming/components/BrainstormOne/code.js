@@ -1,5 +1,4 @@
-const brainstormOneCode = `function Brainstorming 1() {
-  return (
+const brainstormOneCode = `
   - realizacia problemov v danom tyzdni
 
   - mobilna aplikacia pre jednu platformu (kvalita nad kvantitov)
@@ -52,8 +51,6 @@ const brainstormOneCode = `function Brainstorming 1() {
   - spisat si myslienky, napady a ciele
   - ako to budeme robit(technologie a pod)
   - odkozultovat podmienky akceptacnych testov
-
-)
 `;
 
 export default brainstormOneCode;

@@ -23,7 +23,7 @@ import Stack from "@mui/material/Stack";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-import bgImage from "assets/images/bg-coworking.jpeg";
+import bgImage from "assets/images/peacebg.jpg";
 function FeaturesOne() {
   return (
     <MKBox

@@ -25,7 +25,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Images
-import bgImage from "assets/images/bg-brainstorm.jpg";
+import bgImage from "assets/images/peacebg.jpg";
 
 function HeaderOne() {
   return (
@@ -67,13 +67,14 @@ function HeaderOne() {
               variant="h1"
               color="white"
               mb={3}
+              py={10}
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
                   fontSize: size["3xl"],
                 },
               })}
             >
-              TP - Peace
+              Tím č.24 - PEACE
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} pr={6} mr={6}>
               Výsledky myšlienkových pochodov nášho tímu
@@ -84,6 +85,7 @@ function HeaderOne() {
             <MKTypography variant="body1" color="white" opacity={0.8} pr={6} mr={6}>
               Zúčastnení: Adam, Maroš, Matej, Filip, Andrej, Martin, Marcel
             </MKTypography>
+            <br />
           </Grid>
         </Container>
       </MKBox>

@@ -24,20 +24,16 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // About Us page sections
 import Information from "pages/LandingPages/AboutUs/sections/Information";
 import Team from "pages/LandingPages/AboutUs/sections/Team";
-import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
-import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from "assets/images/peacebg.jpg";
 
 function AboutUs() {
   return (
@@ -87,7 +83,7 @@ function AboutUs() {
                 },
               })}
             >
-              TP PEACE - Team members
+              Tím č.24 - PEACE - Team members
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
               We&apos;re constantly trying to express ourselves and actualize our dreams. If you
@@ -107,12 +103,7 @@ function AboutUs() {
       >
         <Information />
         <Team />
-        <Featuring />
-        <Newsletter />
       </Card>
-      <MKBox pt={6} px={1} mt={6}>
-        <DefaultFooter content={footerRoutes} />
-      </MKBox>
     </>
   );
 }

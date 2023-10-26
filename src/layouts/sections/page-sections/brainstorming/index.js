@@ -32,7 +32,7 @@ function PageHeaders() {
         { label: "Brainstorm" },
       ]}
     >
-      <View title="Brainstorming" code={brainstormOneCode} height="40rem">
+      <View title="Brainstorming" code={brainstormOneCode}>
         <BrainstormOne />
       </View>
     </BaseLayout>

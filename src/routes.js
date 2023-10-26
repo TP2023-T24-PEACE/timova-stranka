@@ -42,9 +42,7 @@ import Icon from "@mui/material/Icon";
 // @mui icons
 
 // Pages
-import AboutUs from "layouts/pages/landing-pages/about-us";
 import Projectinfo from "layouts/pages/landing-pages/project-info";
-import Author from "layouts/pages/landing-pages/author";
 
 // Sections
 import BrainHeader from "layouts/sections/page-sections/brainstorming";
@@ -58,119 +56,88 @@ import Sprint4 from "layouts/pages/landing-pages/sprint4";
 
 const routes = [
   {
-    name: "Information",
+    name: "Linky",
     icon: <Icon>dashboard</Icon>,
     columns: 1,
     rowsPerColumn: 2,
     collapse: [
       {
-        name: "Sections",
+        name: "Sekcie",
         collapse: [
           {
-            name: "about us",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            name: "Github organizácia",
+            route: "https://github.com/TP2023-T24-PEACE",
+            target: "_blank",
           },
           {
-            name: "Project info",
-            route: "/pages/landing-pages/project-info",
+            name: "Zadanie projektu",
+            route: "/project-info",
             component: <Projectinfo />,
-          },
-          {
-            name: "author",
-            route: "/pages/landing-pages/author",
-            component: <Author />,
           },
         ],
       },
     ],
   },
   {
-    name: "Meetings",
+    name: "Dokumenty",
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
-        name: "Meeting records",
-        description: "See all records",
+        name: "Záznamy stretnutí",
+        description: "Prezerať záznamy",
         dropdown: true,
         collapse: [
           {
             name: "Meeting 1",
-            route: "/sections/page-sections/meeting1",
+            route: "/meetings/meeting1",
 
             component: <Features />,
           },
           {
             name: "Meeting 2",
-            route: "/sections/page-sections/meeting2",
+            route: "/meetings/meeting2",
             component: <Features2 />,
           },
           {
             name: "Meeting 3",
-            route: "/sections/page-sections/meeting3",
+            route: "/meetings/meeting3",
             component: <Features3 />,
           },
         ],
       },
       {
         name: "Brainstormings",
-        description: "See all brainstorms",
+        description: "Prezerať záznamy",
         dropdown: true,
         collapse: [
           {
             name: "Brainstorming 1",
-            route: "/sections/page-sections/brainstorming1",
+            route: "/brainstormings/brainstorming1",
             component: <BrainHeader />,
           },
           {
             name: "Brainstorming 2",
-            route: "/sections/page-sections/brainstorming2",
+            route: "/brainstormings/brainstorming2",
             component: <BrainHeader2 />,
           },
           {
             name: "Brainstorming 3",
-            route: "/sections/page-sections/brainstorming3",
+            route: "/brainstormings/brainstorming3",
             component: <BrainHeader3 />,
           },
         ],
       },
       {
-        name: "Sprint work",
-        description: "Individual work during the sprints",
+        name: "Šprinty",
+        description: "Práca v šprintoch	",
         dropdown: true,
         collapse: [
           {
             name: "Sprint 4",
-            route: "/sections/page-sections/sprint4",
+            route: "/sprints/sprint4",
             component: <Sprint4 />,
           },
         ],
-      },
-    ],
-  },
-  {
-    name: "docs",
-    icon: <Icon>article</Icon>,
-    collapse: [
-      {
-        name: "getting started",
-        description: "All about overview, quick start, license and contents",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
-      },
-      {
-        name: "foundation",
-        description: "See our colors, icons and typography",
-        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/",
-      },
-      {
-        name: "components",
-        description: "Explore our collection of fully designed components",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
-      },
-      {
-        name: "plugins",
-        description: "Check how you can integrate our plugins",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
       },
     ],
   },

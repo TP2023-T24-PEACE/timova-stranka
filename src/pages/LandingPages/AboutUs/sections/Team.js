@@ -33,50 +33,54 @@ import valent from "assets/images/valent.jpg";
 import maros from "assets/images/maros.jpg";
 import andrej from "assets/images/andre_zitnak.jpg";
 
+import "./style.css";
+
 function Team() {
   return (
-    <MKBox
-      component="section"
-      variant="gradient"
-      bgColor="dark"
-      position="relative"
-      py={6}
-      px={{ xs: 2, lg: 0 }}
-      mx={-2}
-    >
+    <MKBox component="section" variant="gradient" bgColor="success" position="relative" py={6}>
       <Container>
         <Grid container>
           <Grid item xs={12} md={8} sx={{ mb: 6 }}>
             <MKTypography variant="h3" color="white">
-              The Executive Team
+              Náš tím
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              There&apos;s nothing I really wanted to do in life that I wasn&apos;t able to get good
-              at. That&apos;s my skill.
+              Apes together strong
             </MKTypography>
           </Grid>
         </Grid>
         <Grid container spacing={3}>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} lg={6} className="team-card">
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={pakan}
                 name="Matej Pakán"
                 position={{ color: "info", label: "App development, Web development" }}
-                description="Zaujíma sa o webové stránky od roku 2013 a od 2017 ich tvorí profesionálne
-                "
+                description="Zaujíma sa o webové stránky od roku 2013 a od 2017 ich tvorí profesionálne."
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
-                <b>2021 - 2022</b> - Frontend Developer nahodsa.sk <br />
-                <b>2020 - 2023</b> - Frontend Developer vibefest.sk & redroom.sk <br />
-                <b>2022 - súčasnosť</b> - Web Developer barneystudio.com <br />
-                <b>Absolvované relevantné predmety</b> - MTAA, WTECH, VPWA, VAVJS, DBS, ICP, IAU,
-                OOP <br />
-                <b>Zapísané inžinierske predmety</b> - KPAIS, IPVIKT, MTS
+                <ul>
+                  <li>
+                    <b>2022 - súčasnosť</b> - Web Developer barneystudio.com
+                  </li>
+                  <li>
+                    <b>2020 - 2023</b> - Frontend Developer vibefest.sk & redroom.sk
+                  </li>
+                  <li>
+                    <b>2021 - 2022</b> - Frontend Developer nahodsa.sk
+                  </li>
+                  <li>
+                    <b>Absolvované relevantné predmety</b> - MTAA, WTECH, VPWA, VAVJS, DBS, ICP,
+                    IAU, OOP
+                  </li>
+                  <li>
+                    <b>Zapísané inžinierske predmety</b> - KPAIS, IPVIKT, MTS
+                  </li>
+                </ul>
               </MKTypography>
             </MKBox>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} lg={6} className="team-card">
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={jankanic}
@@ -85,15 +89,22 @@ function Team() {
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
-                Bakalárska téma zameraná na full stack webovú aplikáciu <br />
-                <b>Absolvované relevantné predmety</b> - VPWA, MTAA, WTECH, DBS, ICP, OOP, IAU{" "}
-                <br />
-                <b>Zapísané inžinierske predmety</b> - AS, PDT, MTS, IPVKT <br />
-                <b>2022 - súčasnosť</b> - ANASOFT softvérový analytik
+                <ul>
+                  <li>
+                    <b>2022 - súčasnosť</b> - ANASOFT softvérový analytik
+                  </li>
+                  <li>Bakalárska téma zameraná na full stack webovú aplikáciu</li>
+                  <li>
+                    <b>Absolvované relevantné predmety</b> - VPWA, MTAA, WTECH, DBS, ICP, OOP, IAU
+                  </li>
+                  <li>
+                    <b>Zapísané inžinierske predmety</b> - AS, PDT, MTS, IPVKT
+                  </li>
+                </ul>
               </MKTypography>
             </MKBox>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} lg={6} className="team-card">
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team3}
@@ -102,17 +113,25 @@ function Team() {
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
-                Bakalárska téma zameraná bakalárska práca na vývoj natívnej mobilnej aplikácie{" "}
-                <br />
-                <b>Absolvované relevantné predmety</b> - MTAA, IAU a povinné predmety v rámci
-                bakalárskeho štúdia FIIT
-                <br />
-                <b>Zapísané inžinierske predmety</b> - AS, PDT, MTS <br />
-                <b>2022 - súčasnosť</b> - Backend Developer backbone.sk
+                <ul>
+                  <li>
+                    <b>2022 - súčasnosť</b> - Backend Developer backbone.sk
+                  </li>
+                  <li>
+                    Bakalárska téma zameraná bakalárska práca na vývoj natívnej mobilnej aplikácie
+                  </li>
+                  <li>
+                    <b>Absolvované relevantné predmety</b> - MTAA, IAU a povinné predmety v rámci
+                    bakalárskeho štúdia FIIT
+                  </li>
+                  <li>
+                    <b>Zapísané inžinierske predmety</b> - AS, PDT, MTS
+                  </li>
+                </ul>
               </MKTypography>
             </MKBox>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} lg={6} className="team-card">
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team4}
@@ -121,13 +140,19 @@ function Team() {
                 description="Zaujíma sa o tvorbu webových aplikácií od roku 2019"
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
-                Bakalárska práca s vývojom webovej aplikácie <br />
-                <b>Absolvované relevantné predmety</b> - MTAA, WTECH, VPWA, DBS, OOP, IAU <br />
-                <b>Zapísané inžinierske predmety</b> - TSOFT, NSIETE
+                <ul>
+                  <li>Bakalárska práca s vývojom webovej aplikácie</li>
+                  <li>
+                    <b>Absolvované relevantné predmety</b> - MTAA, WTECH, VPWA, DBS, OOP, IAU
+                  </li>
+                  <li>
+                    <b>Zapísané inžinierske predmety</b> - TSOFT, NSIETE
+                  </li>
+                </ul>
               </MKTypography>
             </MKBox>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} lg={6} className="team-card">
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={andrej}
@@ -136,15 +161,20 @@ function Team() {
                 description="O dátovú vedu sa zaujíma aj v profesionálnom živote"
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
-                Bakalárska téma zameraná na Data science <br />
-                <b>Absolvované relevantné predmety</b> - WTECH, VAVJS, DBS, ICP, IAU, OOP, UI, PAS,
-                VAVA
-                <br />
-                <b>Zapísané inžinierske predmety</b> - VINF, OZNAL, SMVE
+                <ul>
+                  <li>Bakalárska téma zameraná na Data science</li>
+                  <li>
+                    <b>Absolvované relevantné predmety</b> - WTECH, VAVJS, DBS, ICP, IAU, OOP, UI,
+                    PAS, VAVA
+                  </li>
+                  <li>
+                    <b>Zapísané inžinierske predmety</b> - VINF, OZNAL, SMVE
+                  </li>
+                </ul>
               </MKTypography>
             </MKBox>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} lg={6} className="team-card">
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={valent}
@@ -153,16 +183,26 @@ function Team() {
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
-                BP zameraná na Computer vision a data science <br />
-                <b>Absolvované relevantné predmety</b> - - IAU, ICP, OOP, DBS <br />
-                <b>2021-2023</b> - Kyndryl (customer support, developer)
-                <b>2023 - súčasnos</b> -Slovenské elektrárne - developer (data science, web
-                development) <br />
-                <b>Zapísané inžinierske predmety</b> - VINF, OZNAL, SMVE
+                <ul>
+                  <li>
+                    <b>2023 - súčasnosť</b> - Slovenské elektrárne - developer (data science, web
+                    development)
+                  </li>
+                  <li>
+                    <b>2021-2023</b> - Kyndryl (customer support, developer)
+                  </li>
+                  <li>BP zameraná na Computer vision a data science</li>
+                  <li>
+                    <b>Absolvované relevantné predmety</b> - - IAU, ICP, OOP, DBS
+                  </li>
+                  <li>
+                    <b>Zapísané inžinierske predmety</b> - VINF, OZNAL, SMVE
+                  </li>
+                </ul>
               </MKTypography>
             </MKBox>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} lg={6} className="team-card">
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={maros}
@@ -171,13 +211,22 @@ function Team() {
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
-                <b>Bakalárska práca</b> - webový portál celoživotného online vzdelávania zameraný na
-                starších a zrakovo znevýhodnených používateľov <br />
-                <b>Absolvované relevantné predmety</b> - IAU, ICP, OOP, DBS, WTECH, MSOFT
-                <br />
-                <b>Zapísané inžinierske predmety</b> - VINF, AS, MTS, DSOZB <br />
-                <b>2022 - súčasnosť</b> - Asseco Central Europe - vývoj automatických testov pre
-                weby
+                <ul>
+                  <li>
+                    <b>Bakalárska práca</b> - webový portál celoživotného online vzdelávania
+                    zameraný na starších a zrakovo znevýhodnených používateľov
+                  </li>
+                  <li>
+                    <b>Absolvované relevantné predmety</b> - IAU, ICP, OOP, DBS, WTECH, MSOFT
+                  </li>
+                  <li>
+                    <b>Zapísané inžinierske predmety</b> - VINF, AS, MTS, DSOZB
+                  </li>
+                  <li>
+                    <b>2022 - súčasnosť</b> - Asseco Central Europe - vývoj automatických testov pre
+                    weby
+                  </li>
+                </ul>
               </MKTypography>
             </MKBox>
           </Grid>

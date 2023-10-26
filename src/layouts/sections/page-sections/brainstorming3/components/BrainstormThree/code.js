@@ -1,5 +1,4 @@
-const brainstormTwoCode = `function Brainstorming 3() {
-  return (
+const brainstormTwoCode = `
     Premýšľame o spôsoboch, ako pozorovať náladu a správanie používateľa. 
     Na základe nálady sa opýtajte na správanie a činy používateľa. 
     Ako by vyzeral vstup? Nastavte pocity a nálady, ktoré sú dôležité a zaujímavé na pozorovanie.
@@ -21,7 +20,6 @@ const brainstormTwoCode = `function Brainstorming 3() {
         - Mal si dnes **ovocie**?
         - Mal si dnes pohyb?
         - Je ti lepšie ako ti bolo včera?
-)
 `;
 
 export default brainstormTwoCode;
