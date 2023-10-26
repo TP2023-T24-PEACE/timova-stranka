@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c3e53ff.css",
-    "main.js": "/static/js/main.e3790cd0.js",
-    "static/media/peacebg.jpg": "/static/media/peacebg.2c0f4452d05aacf47a09.jpg",
-    "static/media/priloha-A.jpg": "/static/media/priloha-A.a808917fad819e080ac0.jpg",
-    "static/media/andre_zitnak.jpg": "/static/media/andre_zitnak.cb4f75b328fb764dc334.jpg",
-    "static/media/bruce-mars.jpg": "/static/media/bruce-mars.b1af3d0904ad8ea3a522.jpg",
-    "static/media/ivana-square.jpg": "/static/media/ivana-square.f7bc23b269d1d2509c82.jpg",
-    "static/media/ivana-squares.jpg": "/static/media/ivana-squares.3c555b856b04c2ab921b.jpg",
-    "static/media/peace.jpg": "/static/media/peace.356ea379590887a1affc.jpg",
-    "static/media/team-5.jpg": "/static/media/team-5.950aa7aa91ef88f5ccf8.jpg",
-    "index.html": "/index.html",
-    "main.9c3e53ff.css.map": "/static/css/main.9c3e53ff.css.map",
-    "main.e3790cd0.js.map": "/static/js/main.e3790cd0.js.map"
+    "main.css": "/timova-stranka/static/css/main.9c3e53ff.css",
+    "main.js": "/timova-stranka/static/js/main.f7abdbb6.js",
+    "static/media/peacebg.jpg": "/timova-stranka/static/media/peacebg.2c0f4452d05aacf47a09.jpg",
+    "static/media/priloha-A.jpg": "/timova-stranka/static/media/priloha-A.a808917fad819e080ac0.jpg",
+    "static/media/andre_zitnak.jpg": "/timova-stranka/static/media/andre_zitnak.cb4f75b328fb764dc334.jpg",
+    "static/media/bruce-mars.jpg": "/timova-stranka/static/media/bruce-mars.b1af3d0904ad8ea3a522.jpg",
+    "static/media/ivana-square.jpg": "/timova-stranka/static/media/ivana-square.f7bc23b269d1d2509c82.jpg",
+    "static/media/ivana-squares.jpg": "/timova-stranka/static/media/ivana-squares.3c555b856b04c2ab921b.jpg",
+    "static/media/peace.jpg": "/timova-stranka/static/media/peace.356ea379590887a1affc.jpg",
+    "static/media/team-5.jpg": "/timova-stranka/static/media/team-5.950aa7aa91ef88f5ccf8.jpg",
+    "index.html": "/timova-stranka/index.html",
+    "main.9c3e53ff.css.map": "/timova-stranka/static/css/main.9c3e53ff.css.map",
+    "main.f7abdbb6.js.map": "/timova-stranka/static/js/main.f7abdbb6.js.map"
   },
   "entrypoints": [
     "static/css/main.9c3e53ff.css",
-    "static/js/main.e3790cd0.js"
+    "static/js/main.f7abdbb6.js"
   ]
 }
