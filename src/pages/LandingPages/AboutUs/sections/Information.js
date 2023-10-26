@@ -58,10 +58,8 @@ function Information() {
               title="Tím č. 24"
               description="Personal Emotional Activity Checking Engine (PEACE)"
               action={{
-                type: "internal",
-                route: "/about-us",
-                color: "info",
-                label: "o nás",
+                label: "",
+                color: "transparent",
               }}
             />
           </Grid>
