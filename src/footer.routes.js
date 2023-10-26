@@ -16,7 +16,7 @@ export default {
   brand: {
     name: "Tím č.24 - PEACE",
     image: logoCT,
-    route: "/",
+    route: "/timova-stranka",
   },
   socials: [
     {
