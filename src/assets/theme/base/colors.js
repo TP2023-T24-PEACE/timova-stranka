@@ -113,8 +113,8 @@ export default {
     },
 
     success: {
-      main: "#66BB6A",
-      state: "#43A047",
+      state: "#0F504A",
+      main: "#9BC53D",
     },
 
     warning: {

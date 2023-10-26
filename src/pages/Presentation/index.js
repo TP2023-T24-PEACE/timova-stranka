@@ -63,16 +63,25 @@ function Presentation() {
                 },
               })}
             >
-              TP - Personal Emotional Activity Checking Engine{" "}
+              PEACE
+            </MKTypography>
+            <MKTypography
+              variant="h3"
+              color="white"
+              textAlign="center"
+              px={{ xs: 6, lg: 12 }}
+              mt={1}
+            >
+              Personal Emotional Activity Checking Engine
             </MKTypography>
             <MKTypography
               variant="body1"
               color="white"
               textAlign="center"
               px={{ xs: 6, lg: 12 }}
-              mt={1}
+              mt={3}
             >
-              School project
+              Tímový projekt 2023 / 24
             </MKTypography>
           </Grid>
         </Container>

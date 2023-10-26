@@ -67,7 +67,7 @@ const routes = [
         name: "Sections",
         collapse: [
           {
-            name: "about us",
+            name: "About us",
             route: "/pages/landing-pages/about-us",
             component: <AboutUs />,
           },
@@ -75,12 +75,7 @@ const routes = [
             name: "Project info",
             route: "/pages/landing-pages/project-info",
             component: <Projectinfo />,
-          },
-          {
-            name: "author",
-            route: "/pages/landing-pages/author",
-            component: <Author />,
-          },
+          }
         ],
       },
     ],

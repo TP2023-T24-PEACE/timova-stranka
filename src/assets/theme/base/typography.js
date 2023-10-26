@@ -28,7 +28,7 @@ import pxToRem from "assets/theme/functions/pxToRem";
 const { dark } = colors;
 
 const baseProperties = {
-  fontFamily: "Poppins",
+  fontFamily: "Montserrat",
   fontFamily2: "Poppins",
   fontWeightLighter: 100,
   fontWeightLight: 300,
