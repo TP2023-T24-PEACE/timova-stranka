@@ -66,8 +66,7 @@ const routes = [
         collapse: [
           {
             name: "Github organizácia",
-            route: "https://github.com/TP2023-T24-PEACE",
-            target: "_blank",
+            href: "https://github.com/TP2023-T24-PEACE",
           },
           {
             name: "Zadanie projektu",
