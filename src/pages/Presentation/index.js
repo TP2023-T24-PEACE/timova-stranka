@@ -28,7 +28,7 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import routes from "routes";
 
 // Images
-import bgImage from "assets/images/peacebg.jpg";
+import bgImage from "assets/images/bg-presentation.jpg";
 
 // Sections
 import Information from "pages/LandingPages/AboutUs/sections/Information";

@@ -37,7 +37,13 @@ import "./style.css";
 
 function Team() {
   return (
-    <MKBox component="section" variant="gradient" bgColor="success" position="relative" py={6}>
+    <MKBox
+      component="section"
+      variant="gradient"
+      bgColor="success"
+      position="relative"
+      py={6}
+    >
       <Container>
         <Grid container>
           <Grid item xs={12} md={8} sx={{ mb: 6 }}>
@@ -55,7 +61,10 @@ function Team() {
               <HorizontalTeamCard
                 image={pakan}
                 name="Matej Pakán"
-                position={{ color: "info", label: "App development, Web development" }}
+                position={{
+                  color: "info",
+                  label: "App development, Web development",
+                }}
                 description="Zaujíma sa o webové stránky od roku 2013 a od 2017 ich tvorí profesionálne."
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
@@ -64,14 +73,15 @@ function Team() {
                     <b>2022 - súčasnosť</b> - Web Developer barneystudio.com
                   </li>
                   <li>
-                    <b>2020 - 2023</b> - Frontend Developer vibefest.sk & redroom.sk
+                    <b>2020 - 2023</b> - Frontend Developer vibefest.sk &
+                    redroom.sk
                   </li>
                   <li>
                     <b>2021 - 2022</b> - Frontend Developer nahodsa.sk
                   </li>
                   <li>
-                    <b>Absolvované relevantné predmety</b> - MTAA, WTECH, VPWA, VAVJS, DBS, ICP,
-                    IAU, OOP
+                    <b>Absolvované relevantné predmety</b> - MTAA, WTECH, VPWA,
+                    VAVJS, DBS, ICP, IAU, OOP
                   </li>
                   <li>
                     <b>Zapísané inžinierske predmety</b> - KPAIS, IPVIKT, MTS
@@ -85,7 +95,10 @@ function Team() {
               <HorizontalTeamCard
                 image={jankanic}
                 name="Adam Jankanič"
-                position={{ color: "info", label: "App development, Web development" }}
+                position={{
+                  color: "info",
+                  label: "App development, Web development",
+                }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
@@ -93,9 +106,12 @@ function Team() {
                   <li>
                     <b>2022 - súčasnosť</b> - ANASOFT softvérový analytik
                   </li>
-                  <li>Bakalárska téma zameraná na full stack webovú aplikáciu</li>
                   <li>
-                    <b>Absolvované relevantné predmety</b> - VPWA, MTAA, WTECH, DBS, ICP, OOP, IAU
+                    Bakalárska téma zameraná na full stack webovú aplikáciu
+                  </li>
+                  <li>
+                    <b>Absolvované relevantné predmety</b> - VPWA, MTAA, WTECH,
+                    DBS, ICP, OOP, IAU
                   </li>
                   <li>
                     <b>Zapísané inžinierske predmety</b> - AS, PDT, MTS, IPVKT
@@ -118,11 +134,12 @@ function Team() {
                     <b>2022 - súčasnosť</b> - Backend Developer backbone.sk
                   </li>
                   <li>
-                    Bakalárska téma zameraná bakalárska práca na vývoj natívnej mobilnej aplikácie
+                    Bakalárska téma zameraná bakalárska práca na vývoj natívnej
+                    mobilnej aplikácie
                   </li>
                   <li>
-                    <b>Absolvované relevantné predmety</b> - MTAA, IAU a povinné predmety v rámci
-                    bakalárskeho štúdia FIIT
+                    <b>Absolvované relevantné predmety</b> - MTAA, IAU a povinné
+                    predmety v rámci bakalárskeho štúdia FIIT
                   </li>
                   <li>
                     <b>Zapísané inžinierske predmety</b> - AS, PDT, MTS
@@ -143,7 +160,8 @@ function Team() {
                 <ul>
                   <li>Bakalárska práca s vývojom webovej aplikácie</li>
                   <li>
-                    <b>Absolvované relevantné predmety</b> - MTAA, WTECH, VPWA, DBS, OOP, IAU
+                    <b>Absolvované relevantné predmety</b> - MTAA, WTECH, VPWA,
+                    DBS, OOP, IAU
                   </li>
                   <li>
                     <b>Zapísané inžinierske predmety</b> - TSOFT, NSIETE
@@ -164,8 +182,8 @@ function Team() {
                 <ul>
                   <li>Bakalárska téma zameraná na Data science</li>
                   <li>
-                    <b>Absolvované relevantné predmety</b> - WTECH, VAVJS, DBS, ICP, IAU, OOP, UI,
-                    PAS, VAVA
+                    <b>Absolvované relevantné predmety</b> - WTECH, VAVJS, DBS,
+                    ICP, IAU, OOP, UI, PAS, VAVA
                   </li>
                   <li>
                     <b>Zapísané inžinierske predmety</b> - VINF, OZNAL, SMVE
@@ -185,15 +203,16 @@ function Team() {
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
                 <ul>
                   <li>
-                    <b>2023 - súčasnosť</b> - Slovenské elektrárne - developer (data science, web
-                    development)
+                    <b>2023 - súčasnosť</b> - Slovenské elektrárne - developer
+                    (data science, web development)
                   </li>
                   <li>
                     <b>2021-2023</b> - Kyndryl (customer support, developer)
                   </li>
                   <li>BP zameraná na Computer vision a data science</li>
                   <li>
-                    <b>Absolvované relevantné predmety</b> - - IAU, ICP, OOP, DBS
+                    <b>Absolvované relevantné predmety</b> - - IAU, ICP, OOP,
+                    DBS
                   </li>
                   <li>
                     <b>Zapísané inžinierske predmety</b> - VINF, OZNAL, SMVE
@@ -207,24 +226,29 @@ function Team() {
               <HorizontalTeamCard
                 image={maros}
                 name="Maroš Lukáč"
-                position={{ color: "info", label: "Web-development, Automated test developer" }}
+                position={{
+                  color: "info",
+                  label: "Web-development, Automated test developer",
+                }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
               <MKTypography variant="body1" color="white" mb={3} ml={2}>
                 <ul>
                   <li>
-                    <b>Bakalárska práca</b> - webový portál celoživotného online vzdelávania
-                    zameraný na starších a zrakovo znevýhodnených používateľov
+                    <b>Bakalárska práca</b> - webový portál celoživotného online
+                    vzdelávania zameraný na starších a zrakovo znevýhodnených
+                    používateľov
                   </li>
                   <li>
-                    <b>Absolvované relevantné predmety</b> - IAU, ICP, OOP, DBS, WTECH, MSOFT
+                    <b>Absolvované relevantné predmety</b> - IAU, ICP, OOP, DBS,
+                    WTECH, MSOFT
                   </li>
                   <li>
                     <b>Zapísané inžinierske predmety</b> - VINF, AS, MTS, DSOZB
                   </li>
                   <li>
-                    <b>2022 - súčasnosť</b> - Asseco Central Europe - vývoj automatických testov pre
-                    weby
+                    <b>2022 - súčasnosť</b> - Asseco Central Europe - vývoj
+                    automatických testov pre weby
                   </li>
                 </ul>
               </MKTypography>

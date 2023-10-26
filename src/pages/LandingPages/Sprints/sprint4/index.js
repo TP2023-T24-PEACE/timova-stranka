@@ -108,15 +108,27 @@ function ContactUs() {
                         <HorizontalTeamCard
                           image={pakan}
                           name="Matej Pakán"
-                          position={{ color: "info", label: "App development, Web development" }}
+                          position={{
+                            color: "info",
+                            label: "App development, Web development",
+                          }}
                           description="Zaujíma sa o webové stránky od roku 2013 a od 2017 ich tvorí profesionálne
                 "
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> ---- </b> <br />
-                          <b> ---- </b> <br />
-                          <b> ---- </b> <br />
-                          <b> ---- </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b> -&gt; Jetpack compose tutorial </b> <br />
+                          <b> -&gt; Setting up organisation </b> <br />
+                          <b>
+                            {" "}
+                            -&gt; Brainstorming features and motivation for user{" "}
+                          </b>{" "}
+                          <br />
+                          <b> -&gt; Web page update </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -125,12 +137,25 @@ function ContactUs() {
                         <HorizontalTeamCard
                           image={jankanic}
                           name="Adam Jankanič"
-                          position={{ color: "info", label: "App development, Web development" }}
+                          position={{
+                            color: "info",
+                            label: "App development, Web development",
+                          }}
                           description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Brainstorming about data collection </b> <br />
-                          <b> -&gt; Mockup of multi-steps emotion rating </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b> -&gt; Brainstorming about data collection </b>{" "}
+                          <br />
+                          <b>
+                            {" "}
+                            -&gt; Mockup of multi-steps emotion rating{" "}
+                          </b>{" "}
+                          <br />
                           <b> -&gt; Jetpack Compose tutorial 4/35 </b> <br />
                         </MKTypography>
                       </MKBox>
@@ -146,9 +171,23 @@ function ContactUs() {
                           }}
                           description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Add webpage sections &quot;Sprint work&quot; </b> <br />
-                          <b> -&gt; Looking into data calculation formula resources </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b>
+                            {" "}
+                            -&gt; Add webpage sections &quot;Sprint work&quot;{" "}
+                          </b>{" "}
+                          <br />
+                          <b>
+                            {" "}
+                            -&gt; Looking into data calculation formula
+                            resources{" "}
+                          </b>{" "}
+                          <br />
                           <b> -&gt; Clearing webpage </b> <br />
                         </MKTypography>
                       </MKBox>
@@ -186,8 +225,14 @@ function ContactUs() {
                           position={{ color: "info", label: "Backend & API" }}
                           description="Zaujíma sa o tvorbu webových aplikácií od roku 2019"
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Brainstorming about data collection </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b> -&gt; Brainstorming about data collection </b>{" "}
+                          <br />
                           <b> -&gt; Django API Forms documentation </b> <br />
                         </MKTypography>
                       </MKBox>
@@ -200,8 +245,13 @@ function ContactUs() {
                           position={{ color: "info", label: "Backend & API" }}
                           description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Brainstorming about data collection </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b> -&gt; Zadal nám úlohy </b> <br />
                           <b> -&gt; Django API Forms documentation </b> <br />
                         </MKTypography>
                       </MKBox>
@@ -239,16 +289,23 @@ function ContactUs() {
                           position={{ color: "info", label: "Data science" }}
                           description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
                           <b> -&gt; Thinking about data analysis </b> <br />
                           <b>
                             {" "}
-                            -&gt; Looking at different data analysis frameworks for python{" "}
+                            -&gt; Looking at different data analysis frameworks
+                            for python{" "}
                           </b>{" "}
                           <br />
                           <b>
                             {" "}
-                            -&gt; Thinking about data form factors returned from BE for analysis{" "}
+                            -&gt; Thinking about data form factors returned from
+                            BE for analysis{" "}
                           </b>{" "}
                           <br />
                         </MKTypography>
@@ -262,8 +319,17 @@ function ContactUs() {
                           position={{ color: "info", label: "Data science" }}
                           description="O dátovú vedu sa zaujíma aj v profesionálnom živote"
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Looking at different data analysis frameworks for python </b>{" "}
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b>
+                            {" "}
+                            -&gt; Looking at different data analysis frameworks
+                            for python{" "}
+                          </b>{" "}
                           <br />
                           <b> -&gt; Thinking about data analysis </b> <br />
                           <b> -&gt; Mostly ill </b> <br />
