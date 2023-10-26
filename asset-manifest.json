@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/timova-stranka/static/css/main.9c3e53ff.css",
-    "main.js": "/timova-stranka/static/js/main.2b6ab740.js",
+    "main.js": "/timova-stranka/static/js/main.f7abdbb6.js",
     "static/media/peacebg.jpg": "/timova-stranka/static/media/peacebg.2c0f4452d05aacf47a09.jpg",
     "static/media/priloha-A.jpg": "/timova-stranka/static/media/priloha-A.a808917fad819e080ac0.jpg",
     "static/media/andre_zitnak.jpg": "/timova-stranka/static/media/andre_zitnak.cb4f75b328fb764dc334.jpg",
@@ -12,10 +12,10 @@
     "static/media/team-5.jpg": "/timova-stranka/static/media/team-5.950aa7aa91ef88f5ccf8.jpg",
     "index.html": "/timova-stranka/index.html",
     "main.9c3e53ff.css.map": "/timova-stranka/static/css/main.9c3e53ff.css.map",
-    "main.2b6ab740.js.map": "/timova-stranka/static/js/main.2b6ab740.js.map"
+    "main.f7abdbb6.js.map": "/timova-stranka/static/js/main.f7abdbb6.js.map"
   },
   "entrypoints": [
     "static/css/main.9c3e53ff.css",
-    "static/js/main.2b6ab740.js"
+    "static/js/main.f7abdbb6.js"
   ]
 }
