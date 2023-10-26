@@ -23,7 +23,7 @@ import Stack from "@mui/material/Stack";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-import bgImage from "assets/images/bg-coworking.jpeg";
+import bgImage from "assets/images/peacebg.jpg";
 
 function FeaturesOne() {
   return (
@@ -44,7 +44,7 @@ function FeaturesOne() {
         <Grid container alignItems="center">
           <Grid item xs={12} lg={5}>
             <MKTypography variant="h3" my={1} color="white">
-              Record from 2. meeting - 4.10.2023
+              Zápisnica z 2. meetingu - 4.10.2023
             </MKTypography>
 
             <MKTypography variant="h4" color="white" mb={3}>

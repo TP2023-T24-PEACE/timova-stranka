@@ -1,5 +1,4 @@
-const brainstormTwoCode = `function Brainstorming 2() {
-  return (
+const brainstormTwoCode = `
   - Cieľ: Nájsť 3 krokový systém na zaznamenávanie nálady
     1. Výber zo škály (slider) on 0 (najhoršie) do 100 (najlepšie)
     2. Výber z poolu 23 (výber z max. 5) možností
@@ -44,7 +43,6 @@ const brainstormTwoCode = `function Brainstorming 2() {
     • Gambling -
     • Cigarety -
     • Drogy -
-)
 `;
 
 export default brainstormTwoCode;

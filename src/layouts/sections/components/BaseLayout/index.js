@@ -38,8 +38,8 @@ function BaseLayout({ breadcrumb, title, children }) {
         <DefaultNavbar
           routes={routes}
           action={{
-            label: "welcome",
-            color: "info",
+            label: "",
+            color: "transparent",
           }}
           transparent
           relative
