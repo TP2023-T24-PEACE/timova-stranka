@@ -252,7 +252,6 @@ function ContactUs() {
                           ml={2}
                         >
                           <b> -&gt; Zadal nám úlohy </b> <br />
-                          <b> -&gt; Django API Forms documentation </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>

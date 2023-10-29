@@ -122,7 +122,9 @@ function View({ children, code, title, height, ...rest }) {
         </MKBox>
       </MKBox>
       <MKBox display={activeTab === 1 ? "block" : "none"} p={3}>
-        <MKBox
+        {code}
+
+        {/* <MKBox
           bgColor="grey-100"
           position="relative"
           width="100%"
@@ -170,7 +172,7 @@ function View({ children, code, title, height, ...rest }) {
           >
             {code}
           </SyntaxHighlighter>
-        </MKBox>
+        </MKBox> */}
       </MKBox>
     </MKBox>
   );
