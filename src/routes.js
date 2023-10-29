@@ -48,9 +48,12 @@ import Projectinfo from "layouts/pages/landing-pages/project-info";
 import BrainHeader from "layouts/sections/page-sections/brainstorming";
 import BrainHeader2 from "layouts/sections/page-sections/brainstorming2";
 import BrainHeader3 from "layouts/sections/page-sections/brainstorming3";
+import BrainHeader4 from "layouts/sections/page-sections/brainstorming4";
 import Features from "layouts/sections/page-sections/featuers";
 import Features2 from "layouts/sections/page-sections/features2";
 import Features3 from "layouts/sections/page-sections/features3";
+import Features4 from "layouts/sections/page-sections/features4";
+import Features5 from "layouts/sections/page-sections/features5";
 
 import Sprint4 from "layouts/pages/landing-pages/sprint4";
 
@@ -83,7 +86,7 @@ const routes = [
     collapse: [
       {
         name: "Záznamy stretnutí",
-        description: "Prezerať záznamy",
+        description: "PRVÝ SEMESTER",
         dropdown: true,
         collapse: [
           {
@@ -102,11 +105,21 @@ const routes = [
             route: "/meetings/meeting3",
             component: <Features3 />,
           },
+          {
+            name: "Meeting 4",
+            route: "/meetings/meeting4",
+            component: <Features4 />,
+          },
+          {
+            name: "Meeting 5",
+            route: "/meetings/meeting5",
+            component: <Features5 />,
+          },
         ],
       },
       {
         name: "Brainstormings",
-        description: "Prezerať záznamy",
+        description: "PRVÝ SEMESTER",
         dropdown: true,
         collapse: [
           {
@@ -123,6 +136,11 @@ const routes = [
             name: "Brainstorming 3",
             route: "/brainstormings/brainstorming3",
             component: <BrainHeader3 />,
+          },
+          {
+            name: "Brainstorming 4",
+            route: "/brainstormings/brainstorming4",
+            component: <BrainHeader4 />,
           },
         ],
       },

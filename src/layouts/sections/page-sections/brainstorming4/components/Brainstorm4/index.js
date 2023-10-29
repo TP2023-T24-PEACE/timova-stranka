@@ -103,7 +103,7 @@ function HeaderOne() {
               pr={6}
               mr={6}
             >
-              <b>Dátum stretnutia:</b> 10.10.2023
+              <b>Dátum stretnutia:</b> 17.10.2023
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -112,7 +112,7 @@ function HeaderOne() {
               pr={6}
               mr={6}
             >
-              <b>Zúčastnení:</b> Adam, Maroš, Matej, Filip, Martin
+              <b>Zúčastnení:</b> Adam, Maroš, Matej, Martin
             </MKTypography>
             <br />
           </Grid>
