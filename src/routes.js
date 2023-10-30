@@ -43,6 +43,7 @@ import Icon from "@mui/material/Icon";
 
 // Pages
 import Projectinfo from "layouts/pages/landing-pages/project-info";
+import DataCalculation from "layouts/pages/landing-pages/resourcesDataCalculation";
 
 // Sections
 import BrainHeader from "layouts/sections/page-sections/brainstorming";
@@ -153,6 +154,18 @@ const routes = [
             name: "Sprint 4",
             route: "/sprints/sprint4",
             component: <Sprint4 />,
+          },
+        ],
+      },
+      {
+        name: "Spracovanie dát",
+        description: "Zdroje ",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Vzorce",
+            route: "/resources",
+            component: <DataCalculation />,
           },
         ],
       },
