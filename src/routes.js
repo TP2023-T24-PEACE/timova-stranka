@@ -56,6 +56,7 @@ import Features3 from "layouts/sections/page-sections/features3";
 import Features4 from "layouts/sections/page-sections/features4";
 import Features5 from "layouts/sections/page-sections/features5";
 
+import Sprint3 from "layouts/pages/landing-pages/sprint3";
 import Sprint4 from "layouts/pages/landing-pages/sprint4";
 
 const routes = [
@@ -151,6 +152,11 @@ const routes = [
         dropdown: true,
         collapse: [
           {
+            name: "Sprint 3",
+            route: "/sprints/sprint3",
+            component: <Sprint3 />,
+          },
+          {
             name: "Sprint 4",
             route: "/sprints/sprint4",
             component: <Sprint4 />,
@@ -158,12 +164,12 @@ const routes = [
         ],
       },
       {
-        name: "Spracovanie dát",
-        description: "Zdroje ",
+        name: "Data processing",
+        description: "Data colections",
         dropdown: true,
         collapse: [
           {
-            name: "Vzorce",
+            name: "Resources",
             route: "/resources",
             component: <DataCalculation />,
           },

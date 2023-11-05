@@ -52,7 +52,6 @@ function ContactUs() {
         top="0.5rem"
         width="100%"
       />
-
       <Grid
         container
         spacing={0}
@@ -84,7 +83,7 @@ function ContactUs() {
               mt={-3}
             >
               <MKTypography variant="h3" color="white">
-                Work done in sprint n.4
+                Work done in sprint n.3
               </MKTypography>
             </MKBox>
             <MKBox
@@ -125,10 +124,14 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          <b> -&gt; Jetpack compose tutorial </b> <br />
+                          <b> -&gt; Setting up organisation </b> <br />
+                          <b>
+                            {" "}
+                            -&gt; Brainstorming features and motivation for user{" "}
+                          </b>{" "}
+                          <br />
+                          <b> -&gt; Web page update </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -149,10 +152,14 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          <b> -&gt; Brainstorming about data collection </b>{" "}
+                          <br />
+                          <b>
+                            {" "}
+                            -&gt; Mockup of multi-steps emotion rating{" "}
+                          </b>{" "}
+                          <br />
+                          <b> -&gt; Jetpack Compose tutorial 4/35 </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -175,23 +182,16 @@ function ContactUs() {
                         >
                           <b>
                             {" "}
-                            - Change photos of members - I have received
-                            requests to update photos
+                            -&gt; Add webpage sections &quot;Sprint work&quot;{" "}
                           </b>{" "}
                           <br />
                           <b>
                             {" "}
-                            - Refactor all "Meetings" and "Brainstorming"
-                            sections to be responsive{" "}
+                            -&gt; Looking into data calculation formula
+                            resources{" "}
                           </b>{" "}
                           <br />
-                          <b> - Add Meeting 4,5 and Brainstorming 4</b> <br />
-                          <b>
-                            {" "}
-                            - Add sections about data colections and data
-                            processing
-                          </b>{" "}
-                          <br />
+                          <b> -&gt; Clearing webpage </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -234,10 +234,9 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          <b> -&gt; Brainstorming about data collection </b>{" "}
+                          <br />
+                          <b> -&gt; Django API Forms documentation </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -255,10 +254,7 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          <b> -&gt; Zadal nám úlohy </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -301,10 +297,19 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          <b> -&gt; Thinking about data analysis </b> <br />
+                          <b>
+                            {" "}
+                            -&gt; Looking at different data analysis frameworks
+                            for python{" "}
+                          </b>{" "}
+                          <br />
+                          <b>
+                            {" "}
+                            -&gt; Thinking about data form factors returned from
+                            BE for analysis{" "}
+                          </b>{" "}
+                          <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -322,10 +327,14 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          <b>
+                            {" "}
+                            -&gt; Looking at different data analysis frameworks
+                            for python{" "}
+                          </b>{" "}
+                          <br />
+                          <b> -&gt; Thinking about data analysis </b> <br />
+                          <b> -&gt; Mostly ill </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
