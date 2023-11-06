@@ -189,7 +189,7 @@ function ContactUs() {
                           <b>
                             {" "}
                             - Add sections about data colections and data
-                            processing
+                            processing aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                           </b>{" "}
                           <br />
                         </MKTypography>
