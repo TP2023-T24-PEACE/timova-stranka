@@ -14,6 +14,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
+import "./style.css";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 // Material Kit 2 React components
@@ -108,7 +109,7 @@ function ContactUs() {
                 <Grid container spacing={3}>
                   <Grid container spacing={3}>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1} ml={2}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={pakan}
                           name="Matej Pakán"
@@ -116,8 +117,6 @@ function ContactUs() {
                             color: "info",
                             label: "App development, Web development",
                           }}
-                          description="Zaujíma sa o webové stránky od roku 2013 a od 2017 ich tvorí profesionálne
-                "
                         />
                         <MKTypography
                           variant="body1"
@@ -133,7 +132,7 @@ function ContactUs() {
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={jankanic}
                           name="Adam Jankanič"
@@ -141,7 +140,6 @@ function ContactUs() {
                             color: "info",
                             label: "App development, Web development",
                           }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
                         <MKTypography
                           variant="body1"
@@ -157,7 +155,7 @@ function ContactUs() {
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={maros}
                           name="Maroš Lukáč"
@@ -165,7 +163,6 @@ function ContactUs() {
                             color: "info",
                             label: "Web-development, Automated test developer",
                           }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
                         <MKTypography
                           variant="body1"
@@ -189,7 +186,7 @@ function ContactUs() {
                           <b>
                             {" "}
                             - Add sections about data colections and data
-                            processing aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                            processing
                           </b>{" "}
                           <br />
                         </MKTypography>
@@ -221,12 +218,11 @@ function ContactUs() {
                 <Grid container spacing={3}>
                   <Grid container spacing={3}>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1} ml={2}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={team4}
                           name="Martin Drgoň"
                           position={{ color: "info", label: "Backend & API" }}
-                          description="Zaujíma sa o tvorbu webových aplikácií od roku 2019"
                         />
                         <MKTypography
                           variant="body1"
@@ -242,12 +238,11 @@ function ContactUs() {
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={team3}
                           name="Filip Brat"
                           position={{ color: "info", label: "Backend & API" }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
                         <MKTypography
                           variant="body1"
@@ -288,12 +283,11 @@ function ContactUs() {
                 <Grid container spacing={3}>
                   <Grid container spacing={3}>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1} ml={2}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={valent}
                           name="Marcel Valent"
                           position={{ color: "info", label: "Data science" }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
                         <MKTypography
                           variant="body1"
@@ -309,12 +303,11 @@ function ContactUs() {
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={andrej}
                           name="Andrej Žitňák"
                           position={{ color: "info", label: "Data science" }}
-                          description="O dátovú vedu sa zaujíma aj v profesionálnom živote"
                         />
                         <MKTypography
                           variant="body1"

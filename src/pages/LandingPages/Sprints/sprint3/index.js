@@ -14,6 +14,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
+import "./style.css";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 // Material Kit 2 React components
@@ -107,7 +108,7 @@ function ContactUs() {
                 <Grid container spacing={3}>
                   <Grid container spacing={3}>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1} ml={2}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={pakan}
                           name="Matej Pakán"
@@ -115,8 +116,6 @@ function ContactUs() {
                             color: "info",
                             label: "App development, Web development",
                           }}
-                          description="Zaujíma sa o webové stránky od roku 2013 a od 2017 ich tvorí profesionálne
-                "
                         />
                         <MKTypography
                           variant="body1"
@@ -124,19 +123,18 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> -&gt; Jetpack compose tutorial </b> <br />
-                          <b> -&gt; Setting up organisation </b> <br />
+                          <b> - Jetpack compose tutorial </b> <br />
+                          <b> - Setting up organisation </b> <br />
                           <b>
-                            {" "}
-                            -&gt; Brainstorming features and motivation for user{" "}
-                          </b>{" "}
+                            - Brainstorming features and motivation for user
+                          </b>
                           <br />
-                          <b> -&gt; Web page update </b> <br />
+                          <b> - Web page update </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={jankanic}
                           name="Adam Jankanič"
@@ -144,7 +142,6 @@ function ContactUs() {
                             color: "info",
                             label: "App development, Web development",
                           }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
                         <MKTypography
                           variant="body1"
@@ -152,19 +149,15 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> -&gt; Brainstorming about data collection </b>{" "}
+                          <b> - Brainstorming about data collection </b> <br />
+                          <b>- Mockup of multi-steps emotion rating</b>
                           <br />
-                          <b>
-                            {" "}
-                            -&gt; Mockup of multi-steps emotion rating{" "}
-                          </b>{" "}
-                          <br />
-                          <b> -&gt; Jetpack Compose tutorial 4/35 </b> <br />
+                          <b> - Jetpack Compose tutorial 4/35 </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={maros}
                           name="Maroš Lukáč"
@@ -172,7 +165,6 @@ function ContactUs() {
                             color: "info",
                             label: "Web-development, Automated test developer",
                           }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
                         <MKTypography
                           variant="body1"
@@ -180,18 +172,13 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b>
-                            {" "}
-                            -&gt; Add webpage sections &quot;Sprint work&quot;{" "}
-                          </b>{" "}
+                          <b>- Add webpage sections &quot;Sprint work&quot;</b>
                           <br />
                           <b>
-                            {" "}
-                            -&gt; Looking into data calculation formula
-                            resources{" "}
-                          </b>{" "}
+                            - Looking into data calculation formula resources
+                          </b>
                           <br />
-                          <b> -&gt; Clearing webpage </b> <br />
+                          <b> - Clearing webpage </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -221,12 +208,11 @@ function ContactUs() {
                 <Grid container spacing={3}>
                   <Grid container spacing={3}>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1} ml={2}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={team4}
                           name="Martin Drgoň"
                           position={{ color: "info", label: "Backend & API" }}
-                          description="Zaujíma sa o tvorbu webových aplikácií od roku 2019"
                         />
                         <MKTypography
                           variant="body1"
@@ -234,19 +220,17 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> -&gt; Brainstorming about data collection </b>{" "}
-                          <br />
-                          <b> -&gt; Django API Forms documentation </b> <br />
+                          <b> Brainstorming about data collection </b> <br />
+                          <b> Django API Forms documentation </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={team3}
                           name="Filip Brat"
                           position={{ color: "info", label: "Backend & API" }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
                         <MKTypography
                           variant="body1"
@@ -254,7 +238,7 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> -&gt; Zadal nám úlohy </b> <br />
+                          <b> - Zadal nám úlohy </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -284,12 +268,11 @@ function ContactUs() {
                 <Grid container spacing={3}>
                   <Grid container spacing={3}>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1} ml={2}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={valent}
                           name="Marcel Valent"
                           position={{ color: "info", label: "Data science" }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
                         <MKTypography
                           variant="body1"
@@ -297,29 +280,28 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> -&gt; Thinking about data analysis </b> <br />
+                          <b> - Thinking about data analysis </b> <br />
                           <b>
                             {" "}
-                            -&gt; Looking at different data analysis frameworks
-                            for python{" "}
+                            - Looking at different data analysis frameworks for
+                            python{" "}
                           </b>{" "}
                           <br />
                           <b>
                             {" "}
-                            -&gt; Thinking about data form factors returned from
-                            BE for analysis{" "}
+                            - Thinking about data form factors returned from BE
+                            for analysis{" "}
                           </b>{" "}
                           <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={andrej}
                           name="Andrej Žitňák"
                           position={{ color: "info", label: "Data science" }}
-                          description="O dátovú vedu sa zaujíma aj v profesionálnom živote"
                         />
                         <MKTypography
                           variant="body1"
@@ -329,12 +311,12 @@ function ContactUs() {
                         >
                           <b>
                             {" "}
-                            -&gt; Looking at different data analysis frameworks
-                            for python{" "}
+                            - Looking at different data analysis frameworks for
+                            python{" "}
                           </b>{" "}
                           <br />
-                          <b> -&gt; Thinking about data analysis </b> <br />
-                          <b> -&gt; Mostly ill </b> <br />
+                          <b> - Thinking about data analysis </b> <br />
+                          <b> - Mostly ill </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
