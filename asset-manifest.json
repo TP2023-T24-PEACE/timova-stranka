@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "/timova-stranka/static/css/main.07135d81.css",
-    "main.js": "/timova-stranka/static/js/main.cec944bd.js",
+    "main.css": "/timova-stranka/static/css/main.e5e5f405.css",
+    "main.js": "/timova-stranka/static/js/main.83bdcb06.js",
     "static/media/peacebg.jpg": "/timova-stranka/static/media/peacebg.2c0f4452d05aacf47a09.jpg",
+    "static/media/Dashboard.png": "/timova-stranka/static/media/Dashboard.3650cb302174d9453374.png",
+    "static/media/Mood tracking 2.png": "/timova-stranka/static/media/Mood tracking 2.64bb47608898c032e799.png",
+    "static/media/Mood tracking 3.png": "/timova-stranka/static/media/Mood tracking 3.b408b0a542cf1be51863.png",
     "static/media/priloha-A.jpg": "/timova-stranka/static/media/priloha-A.a808917fad819e080ac0.jpg",
     "static/media/andre_zitnak.jpg": "/timova-stranka/static/media/andre_zitnak.cb4f75b328fb764dc334.jpg",
+    "static/media/Introduction.png": "/timova-stranka/static/media/Introduction.090636f087b6ad56a332.png",
+    "static/media/Mood tracking 1.png": "/timova-stranka/static/media/Mood tracking 1.6867df5ac7ab46f52837.png",
+    "static/media/Otázky Tinder v2.png": "/timova-stranka/static/media/Otázky Tinder v2.4cd5fa53afd2fbde8800.png",
     "static/media/bruce-mars.jpg": "/timova-stranka/static/media/bruce-mars.46178bf2b837ff6b89c4.jpg",
     "static/media/ivana-square.jpg": "/timova-stranka/static/media/ivana-square.f7bc23b269d1d2509c82.jpg",
     "static/media/ivana-squares.jpg": "/timova-stranka/static/media/ivana-squares.3c555b856b04c2ab921b.jpg",
@@ -12,11 +18,11 @@
     "static/media/valent.jpg": "/timova-stranka/static/media/valent.785c7f11f89e93069f3e.jpg",
     "static/media/team-5.jpg": "/timova-stranka/static/media/team-5.950aa7aa91ef88f5ccf8.jpg",
     "index.html": "/timova-stranka/index.html",
-    "main.07135d81.css.map": "/timova-stranka/static/css/main.07135d81.css.map",
-    "main.cec944bd.js.map": "/timova-stranka/static/js/main.cec944bd.js.map"
+    "main.e5e5f405.css.map": "/timova-stranka/static/css/main.e5e5f405.css.map",
+    "main.83bdcb06.js.map": "/timova-stranka/static/js/main.83bdcb06.js.map"
   },
   "entrypoints": [
-    "static/css/main.07135d81.css",
-    "static/js/main.cec944bd.js"
+    "static/css/main.e5e5f405.css",
+    "static/js/main.83bdcb06.js"
   ]
 }
