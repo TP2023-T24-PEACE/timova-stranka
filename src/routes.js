@@ -43,47 +43,94 @@ import Icon from "@mui/material/Icon";
 
 // Pages
 import Projectinfo from "layouts/pages/landing-pages/project-info";
-
+import DataCalculation from "layouts/pages/landing-pages/resourcesDataCalculation";
+import Requirements from "layouts/pages/landing-pages/requirements";
+import Analysis from "layouts/pages/landing-pages/analysis";
+import HF from "layouts/pages/landing-pages/hf";
+// import Diagrams from "layouts/pages/landing-pages/diagrams";
 // Sections
 import BrainHeader from "layouts/sections/page-sections/brainstorming";
 import BrainHeader2 from "layouts/sections/page-sections/brainstorming2";
 import BrainHeader3 from "layouts/sections/page-sections/brainstorming3";
+import BrainHeader4 from "layouts/sections/page-sections/brainstorming4";
 import Features from "layouts/sections/page-sections/featuers";
 import Features2 from "layouts/sections/page-sections/features2";
 import Features3 from "layouts/sections/page-sections/features3";
+import Features4 from "layouts/sections/page-sections/features4";
+import Features5 from "layouts/sections/page-sections/features5";
+import Features6 from "layouts/sections/page-sections/features6";
+import Features7 from "layouts/sections/page-sections/features7";
+import Features8 from "layouts/sections/page-sections/features8";
 
+import Sprint3 from "layouts/pages/landing-pages/sprint3";
 import Sprint4 from "layouts/pages/landing-pages/sprint4";
-
+import Sprint5 from "layouts/pages/landing-pages/sprint5";
+import Sprint6 from "layouts/pages/landing-pages/sprint6";
+import Sprint7 from "layouts/pages/landing-pages/sprint7";
+import Sprint8 from "layouts/pages/landing-pages/sprint8";
 const routes = [
   {
-    name: "Linky",
+    name: "Links",
     icon: <Icon>dashboard</Icon>,
     columns: 1,
     rowsPerColumn: 2,
     collapse: [
       {
-        name: "Sekcie",
+        name: "Sections",
         collapse: [
           {
-            name: "Github organizácia",
+            name: "Github organization",
             href: "https://github.com/TP2023-T24-PEACE",
-          },
-          {
-            name: "Zadanie projektu",
-            route: "/project-info",
-            component: <Projectinfo />,
           },
         ],
       },
     ],
   },
   {
-    name: "Dokumenty",
+    name: "Analysis of the project",
+
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
-        name: "Záznamy stretnutí",
-        description: "Prezerať záznamy",
+        name: "Project assignment",
+        description: " ",
+        route: "/project-info",
+        component: <Projectinfo />,
+      },
+      {
+        name: "Data analysis",
+        description: " ",
+        route: "/data-analysis",
+        component: <DataCalculation />,
+      },
+      {
+        name: "Functional and non-functional requirements",
+        description: " ",
+        route: "/requirements",
+        component: <Requirements />,
+      },
+      {
+        name: "Analysis of the project",
+        description: " ",
+        route: "/project-analysis",
+        component: <Analysis />,
+      },
+      {
+        name: "High-fidelity model",
+        description: " ",
+        route: "/high-fidelity",
+        component: <HF />,
+      },
+      // aa
+    ],
+  },
+  {
+    name: "Meetings",
+    icon: <Icon>view_day</Icon>,
+    collapse: [
+      {
+        name: "Weekly standup",
+        description: "1. Semester",
         dropdown: true,
         collapse: [
           {
@@ -102,11 +149,36 @@ const routes = [
             route: "/meetings/meeting3",
             component: <Features3 />,
           },
+          {
+            name: "Meeting 4",
+            route: "/meetings/meeting4",
+            component: <Features4 />,
+          },
+          {
+            name: "Meeting 5",
+            route: "/meetings/meeting5",
+            component: <Features5 />,
+          },
+          {
+            name: "Meeting 6",
+            route: "/meetings/meeting6",
+            component: <Features6 />,
+          },
+          {
+            name: "Meeting 7",
+            route: "/meetings/meeting7",
+            component: <Features7 />,
+          },
+          {
+            name: "Meeting 8",
+            route: "/meetings/meeting8",
+            component: <Features8 />,
+          },
         ],
       },
       {
-        name: "Brainstormings",
-        description: "Prezerať záznamy",
+        name: "Brainstorming",
+        description: "1. Semester",
         dropdown: true,
         collapse: [
           {
@@ -124,17 +196,48 @@ const routes = [
             route: "/brainstormings/brainstorming3",
             component: <BrainHeader3 />,
           },
+          {
+            name: "Brainstorming 4",
+            route: "/brainstormings/brainstorming4",
+            component: <BrainHeader4 />,
+          },
         ],
       },
       {
-        name: "Šprinty",
-        description: "Práca v šprintoch	",
+        name: "Work in sprints",
+        description: "1. Semester",
         dropdown: true,
+
         collapse: [
+          {
+            name: "Sprint 3",
+            route: "/sprints/sprint3",
+            component: <Sprint3 />,
+          },
           {
             name: "Sprint 4",
             route: "/sprints/sprint4",
             component: <Sprint4 />,
+          },
+          {
+            name: "Sprint 5",
+            route: "/sprints/sprint5",
+            component: <Sprint5 />,
+          },
+          {
+            name: "Sprint 6",
+            route: "/sprints/sprint6",
+            component: <Sprint6 />,
+          },
+          {
+            name: "Sprint 7",
+            route: "/sprints/sprint7",
+            component: <Sprint7 />,
+          },
+          {
+            name: "Sprint 8",
+            route: "/sprints/sprint8",
+            component: <Sprint8 />,
           },
         ],
       },

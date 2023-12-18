@@ -16,6 +16,6 @@ Coded by www.creative-tim.com
 // Material Kit 2 React pages
 import Sprint4 from "pages/LandingPages/Sprints/sprint4";
 
-export default function ContactUsPage() {
+export default function Sprint() {
   return <Sprint4 />;
 }

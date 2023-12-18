@@ -52,7 +52,10 @@ function HeaderOne() {
         alignItems="center"
         minHeight="100%"
         sx={{
-          backgroundImage: ({ palette: { gradients }, functions: { linearGradient, rgba } }) =>
+          backgroundImage: ({
+            palette: { gradients },
+            functions: { linearGradient, rgba },
+          }) =>
             `${linearGradient(
               rgba(gradients.dark.main, 0.5),
               rgba(gradients.dark.state, 0.5)
@@ -62,7 +65,15 @@ function HeaderOne() {
         }}
       >
         <Container>
-          <Grid container item xs={12} md={7} lg={6} flexDirection="column" justifyContent="center">
+          <Grid
+            container
+            item
+            xs={12}
+            md={7}
+            lg={6}
+            flexDirection="column"
+            justifyContent="center"
+          >
             <MKTypography
               variant="h1"
               color="white"
@@ -76,14 +87,32 @@ function HeaderOne() {
             >
               Tím č.24 - PEACE
             </MKTypography>
-            <MKTypography variant="body1" color="white" opacity={0.8} pr={6} mr={6}>
-              Výsledky myšlienkových pochodov nášho tímu
+            <MKTypography
+              variant="body1"
+              color="white"
+              opacity={0.8}
+              pr={6}
+              mr={6}
+            >
+              <b>Výsledky myšlienkových pochodov nášho tímu</b>
             </MKTypography>
-            <MKTypography variant="body1" color="white" opacity={0.8} pr={6} mr={6}>
-              Dátum stretnutia: 10.10.2023
+            <MKTypography
+              variant="body1"
+              color="white"
+              opacity={0.8}
+              pr={6}
+              mr={6}
+            >
+              <b>Dátum stretnutia:</b> 10.10.2023
             </MKTypography>
-            <MKTypography variant="body1" color="white" opacity={0.8} pr={6} mr={6}>
-              Zúčastnení: Adam, Maroš, Matej, Filip, Martin
+            <MKTypography
+              variant="body1"
+              color="white"
+              opacity={0.8}
+              pr={6}
+              mr={6}
+            >
+              <b>Zúčastnení:</b> Adam, Maroš, Matej, Filip, Martin
             </MKTypography>
             <br />
           </Grid>

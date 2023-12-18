@@ -14,6 +14,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
+import "./style.css";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 // Material Kit 2 React components
@@ -46,9 +47,13 @@ import andrej from "assets/images/andre_zitnak.jpg";
 function ContactUs() {
   return (
     <>
-      <MKBox position="fixed" top="0.5rem" width="100%">
-        <DefaultNavbar routes={routes} />
-      </MKBox>
+      <DefaultNavbar
+        routes={routes}
+        position="fixed"
+        top="0.5rem"
+        width="100%"
+      />
+
       <Grid
         container
         spacing={0}
@@ -104,39 +109,55 @@ function ContactUs() {
                 <Grid container spacing={3}>
                   <Grid container spacing={3}>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1} ml={2}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={pakan}
                           name="Matej Pakán"
-                          position={{ color: "info", label: "App development, Web development" }}
-                          description="Zaujíma sa o webové stránky od roku 2013 a od 2017 ich tvorí profesionálne
-                "
+                          position={{
+                            color: "info",
+                            label: "App development, Web development",
+                          }}
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> ---- </b> <br />
-                          <b> ---- </b> <br />
-                          <b> ---- </b> <br />
-                          <b> ---- </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          - <br />
+                          - <br />
+                          - <br />
+                          - <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={jankanic}
                           name="Adam Jankanič"
-                          position={{ color: "info", label: "App development, Web development" }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                          position={{
+                            color: "info",
+                            label: "App development, Web development",
+                          }}
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Brainstorming about data collection </b> <br />
-                          <b> -&gt; Mockup of multi-steps emotion rating </b> <br />
-                          <b> -&gt; Jetpack Compose tutorial 4/35 </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b>Functional and Non-Functional Requirements</b>
+                          <br />
+                          <b> Trying Finch App </b>
+                          <br />
+                          <b>Kotlin Course</b>
+                          <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={maros}
                           name="Maroš Lukáč"
@@ -144,12 +165,31 @@ function ContactUs() {
                             color: "info",
                             label: "Web-development, Automated test developer",
                           }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Add webpage sections &quot;Sprint work&quot; </b> <br />
-                          <b> -&gt; Looking into data calculation formula resources </b> <br />
-                          <b> -&gt; Clearing webpage </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b>
+                            {" "}
+                            Change photos of members - I have received requests
+                            to update photos
+                          </b>
+                          <br />
+                          <b>
+                            Refactor all "Meetings" and "Brainstorming" sections
+                            to be responsive
+                          </b>
+                          <br />
+                          <b>Add Meeting 4,5 and Brainstorming 4</b>
+                          <br />
+                          <b>
+                            Add sections about data colections and data
+                            processing
+                          </b>
+                          <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -179,30 +219,49 @@ function ContactUs() {
                 <Grid container spacing={3}>
                   <Grid container spacing={3}>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1} ml={2}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={team4}
                           name="Martin Drgoň"
                           position={{ color: "info", label: "Backend & API" }}
-                          description="Zaujíma sa o tvorbu webových aplikácií od roku 2019"
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Brainstorming about data collection </b> <br />
-                          <b> -&gt; Django API Forms documentation </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          - <br />
+                          - <br />
+                          - <br />
+                          - <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={team3}
                           name="Filip Brat"
                           position={{ color: "info", label: "Backend & API" }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Brainstorming about data collection </b> <br />
-                          <b> -&gt; Django API Forms documentation </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b> Task management</b>
+                          <br />
+                          <b> Components design</b>
+                          <br />
+                          <b>
+                            {" "}
+                            Independent module or submodule for data analysis
+                          </b>
+                          <br />
+                          <b> Components diagram</b>
+                          <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -232,41 +291,39 @@ function ContactUs() {
                 <Grid container spacing={3}>
                   <Grid container spacing={3}>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1} ml={2}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={valent}
                           name="Marcel Valent"
                           position={{ color: "info", label: "Data science" }}
-                          description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Thinking about data analysis </b> <br />
-                          <b>
-                            {" "}
-                            -&gt; Looking at different data analysis frameworks for python{" "}
-                          </b>{" "}
-                          <br />
-                          <b>
-                            {" "}
-                            -&gt; Thinking about data form factors returned from BE for analysis{" "}
-                          </b>{" "}
-                          <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          - <br />
+                          - <br />
+                          - <br />
+                          - <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                      <MKBox mb={1}>
+                      <MKBox mb={1} ml={2} className="team-card">
                         <HorizontalTeamCard
                           image={andrej}
                           name="Andrej Žitňák"
                           position={{ color: "info", label: "Data science" }}
-                          description="O dátovú vedu sa zaujíma aj v profesionálnom živote"
                         />
-                        <MKTypography variant="body1" color="dark" mb={3} ml={2}>
-                          <b> -&gt; Looking at different data analysis frameworks for python </b>{" "}
-                          <br />
-                          <b> -&gt; Thinking about data analysis </b> <br />
-                          <b> -&gt; Mostly ill </b> <br />
+                        <MKTypography
+                          variant="body1"
+                          color="dark"
+                          mb={3}
+                          ml={2}
+                        >
+                          <b> Checking academic articles</b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
