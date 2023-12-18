@@ -53,6 +53,7 @@ function ContactUs() {
         top="0.5rem"
         width="100%"
       />
+
       <Grid
         container
         spacing={0}
@@ -84,7 +85,7 @@ function ContactUs() {
               mt={-3}
             >
               <MKTypography variant="h3" color="white">
-                Work done in sprint n.3
+                Work done in sprint n.7
               </MKTypography>
             </MKBox>
             <MKBox
@@ -123,11 +124,10 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> Jetpack compose tutorial</b> <br />
-                          <b> Setting up organisation</b> <br />
-                          <b> Brainstorming features and motivation for user</b>
-                          <br />
-                          <b> Web page update</b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -147,12 +147,10 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> Brainstorming about data collection </b>
-                          <br />
-                          <b> Mockup of multi-steps emotion rating</b>
-                          <br />
-                          <b> Jetpack Compose tutorial 4/35 </b>
-                          <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -172,16 +170,7 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> Add webpage sections &quot;Sprint work&quot;</b>
-
-                          <br />
-                          <b>
-                            {" "}
-                            Looking into data calculation formula resources
-                          </b>
-
-                          <br />
-                          <b>Clearing webpage</b>
+                          <b>Meeting 7 section</b>
                           <br />
                         </MKTypography>
                       </MKBox>
@@ -224,9 +213,10 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> Brainstorming about data collection </b>
-                          <br />
-                          <b> Django API Forms documentation</b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -243,8 +233,9 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b>Assigned us tasks</b>
-                          <br />
+                          <b> High fidelity design </b> <br />
+                          <b> Task management </b> <br />
+                          <b> Database design </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -286,19 +277,10 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> Thinking about data analysis</b> <br />
-                          <b>
-                            {" "}
-                            Looking at different data analysis frameworks for
-                            python{" "}
-                          </b>
-                          <br />
-                          <b>
-                            {" "}
-                            Thinking about data form factors returned from BE
-                            for analysis{" "}
-                          </b>
-                          <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -315,16 +297,10 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          {" "}
-                          <b>
-                            {" "}
-                            Looking at different data analysis frameworks for
-                            python{" "}
-                          </b>
-                          <br />
-                          <b> Thinking about data analysis </b>
-                          <br />
-                          <b> Mostly ill</b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
+                          <b> - </b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>

@@ -124,10 +124,10 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          - <br />
+                          - <br />
+                          - <br />
+                          - <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -147,10 +147,12 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          <b>Functional and Non-Functional Requirements</b>
+                          <br />
+                          <b> Trying Finch App </b>
+                          <br />
+                          <b>Kotlin Course</b>
+                          <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -172,22 +174,21 @@ function ContactUs() {
                         >
                           <b>
                             {" "}
-                            - Change photos of members - I have received
-                            requests to update photos
-                          </b>{" "}
+                            Change photos of members - I have received requests
+                            to update photos
+                          </b>
                           <br />
                           <b>
-                            {" "}
-                            - Refactor all "Meetings" and "Brainstorming"
-                            sections to be responsive{" "}
-                          </b>{" "}
+                            Refactor all "Meetings" and "Brainstorming" sections
+                            to be responsive
+                          </b>
                           <br />
-                          <b> - Add Meeting 4,5 and Brainstorming 4</b> <br />
+                          <b>Add Meeting 4,5 and Brainstorming 4</b>
+                          <br />
                           <b>
-                            {" "}
-                            - Add sections about data colections and data
+                            Add sections about data colections and data
                             processing
-                          </b>{" "}
+                          </b>
                           <br />
                         </MKTypography>
                       </MKBox>
@@ -230,10 +231,10 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          - <br />
+                          - <br />
+                          - <br />
+                          - <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -250,10 +251,17 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          <b> Task management</b>
+                          <br />
+                          <b> Components design</b>
+                          <br />
+                          <b>
+                            {" "}
+                            Independent module or submodule for data analysis
+                          </b>
+                          <br />
+                          <b> Components diagram</b>
+                          <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -295,10 +303,10 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          - <br />
+                          - <br />
+                          - <br />
+                          - <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -315,10 +323,7 @@ function ContactUs() {
                           mb={3}
                           ml={2}
                         >
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
-                          <b> - </b> <br />
+                          <b> Checking academic articles</b> <br />
                         </MKTypography>
                       </MKBox>
                     </Grid>
