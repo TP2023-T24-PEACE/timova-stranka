@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/timova-stranka/static/css/main.e5e5f405.css",
-    "main.js": "/timova-stranka/static/js/main.83bdcb06.js",
+    "main.js": "/timova-stranka/static/js/main.3df8e7f2.js",
     "static/media/peacebg.jpg": "/timova-stranka/static/media/peacebg.2c0f4452d05aacf47a09.jpg",
     "static/media/Dashboard.png": "/timova-stranka/static/media/Dashboard.3650cb302174d9453374.png",
     "static/media/Mood tracking 2.png": "/timova-stranka/static/media/Mood tracking 2.64bb47608898c032e799.png",
@@ -19,10 +19,10 @@
     "static/media/team-5.jpg": "/timova-stranka/static/media/team-5.950aa7aa91ef88f5ccf8.jpg",
     "index.html": "/timova-stranka/index.html",
     "main.e5e5f405.css.map": "/timova-stranka/static/css/main.e5e5f405.css.map",
-    "main.83bdcb06.js.map": "/timova-stranka/static/js/main.83bdcb06.js.map"
+    "main.3df8e7f2.js.map": "/timova-stranka/static/js/main.3df8e7f2.js.map"
   },
   "entrypoints": [
     "static/css/main.e5e5f405.css",
-    "static/js/main.83bdcb06.js"
+    "static/js/main.3df8e7f2.js"
   ]
 }
