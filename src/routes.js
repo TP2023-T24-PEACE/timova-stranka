@@ -62,6 +62,14 @@ import Features6 from "layouts/sections/page-sections/features6";
 import Features7 from "layouts/sections/page-sections/features7";
 import Features8 from "layouts/sections/page-sections/features8";
 
+import TeamMeet1 from "layouts/sections/page-sections/teamMeet1";
+import TeamMeet2 from "layouts/sections/page-sections/teamMeet2";
+import TeamMeet3 from "layouts/sections/page-sections/teamMeet3";
+import TeamMeet4 from "layouts/sections/page-sections/teamMeet4";
+import TeamMeet5 from "layouts/sections/page-sections/teamMeet5";
+import TeamMeet6 from "layouts/sections/page-sections/teamMeet6";
+import TeamMeet7 from "layouts/sections/page-sections/teamMeet1";
+
 import Sprint3 from "layouts/pages/landing-pages/sprint3";
 import Sprint4 from "layouts/pages/landing-pages/sprint4";
 import Sprint5 from "layouts/pages/landing-pages/sprint5";
@@ -173,6 +181,49 @@ const routes = [
             name: "Meeting 8",
             route: "/meetings/meeting8",
             component: <Features8 />,
+          },
+        ],
+      },
+      {
+        name: "Team Meetings",
+        description: "2. Semester",
+        dropdown: true,
+        collapse: [
+          {
+            name: "TEAM - Meeting 1",
+            route: "/meetings/teamMeeting1",
+
+            component: <TeamMeet1 />,
+          },
+          {
+            name: "TEAM - Meeting 2",
+            route: "/meetings/teamMeeting2",
+            component: <TeamMeet2 />,
+          },
+          {
+            name: "TEAM - Meeting 3",
+            route: "/meetings/teamMeeting3",
+            component: <TeamMeet3 />,
+          },
+          {
+            name: "TEAM - Meeting 4",
+            route: "/meetings/teamMeeting4",
+            component: <TeamMeet4 />,
+          },
+          {
+            name: "TEAM - Meeting 5",
+            route: "/meetings/teamMeeting5",
+            component: <TeamMeet5 />,
+          },
+          {
+            name: "TEAM - Meeting 6",
+            route: "/meetings/teamMeeting6",
+            component: <TeamMeet6 />,
+          },
+          {
+            name: "TEAM - Meeting 7",
+            route: "/meetings/teamMeeting7",
+            component: <TeamMeet7 />,
           },
         ],
       },
