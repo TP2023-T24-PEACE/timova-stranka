@@ -111,7 +111,7 @@ function App() {
   };
 
   const handleLogin = () => {
-    if (username === "1" && password === "1") {
+    if (username === "Mlfinak" && password === "spots") {
       setIsAuthenticated(true);
     } else {
       alert("Nesprávne prihlasovacie meno alebo heslo");
