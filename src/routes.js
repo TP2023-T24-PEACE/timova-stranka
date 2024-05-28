@@ -68,7 +68,7 @@ import TeamMeet3 from "layouts/sections/page-sections/teamMeet3";
 import TeamMeet4 from "layouts/sections/page-sections/teamMeet4";
 import TeamMeet5 from "layouts/sections/page-sections/teamMeet5";
 import TeamMeet6 from "layouts/sections/page-sections/teamMeet6";
-import TeamMeet7 from "layouts/sections/page-sections/teamMeet1";
+import TeamMeet7 from "layouts/sections/page-sections/spots";
 
 import Sprint3 from "layouts/pages/landing-pages/sprint3";
 import Sprint4 from "layouts/pages/landing-pages/sprint4";
